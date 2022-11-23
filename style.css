@@ -32,6 +32,7 @@
 }
 :hover button{
     cursor: pointer;
+    background-color: rgb(216, 196, 196);
 }
 .one_one{
     text-align: center;
