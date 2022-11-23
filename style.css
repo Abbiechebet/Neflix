@@ -1,0 +1,320 @@
+.container{
+    color:white;
+    background-color: #303030;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.one{
+    background-image: linear-gradient(to bottom, black,grey);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/cb5dae36-1095-4528-a11a-58917b4a438f/KE-en-20221114-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    width: auto;
+    height: 721px;
+    border-bottom: 50px;
+}
+.netflix{
+    display: flex;
+}
+.netflix p{
+    color: red;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.netflix button{
+    background-color: red;
+    margin-left: 1150px;
+    margin-top: 20px;
+    height: 35px;
+    width: 85px;
+    border-radius: 5px;
+}
+:hover button{
+    cursor: pointer;
+}
+.one_one{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+.one_one h1{
+    font-size: 60px;
+}
+.one_one h3{
+    font-size: 30px;
+}
+.one_one h4{
+    font-size: 20px;
+}
+.one_one input{
+    height: 60px;
+    width: 405px; 
+}
+ 
+.one_one input, .one_one button{
+     margin: 0px;
+}
+.one_one button{
+
+    background-color: red;
+    height: 68px;
+    width: 200px;
+    font-size: 15px;
+}
+.two{
+    height: 400px;
+    display: flex; 
+    background-color: black;
+    margin-top: 10px; 
+    justify-content: center;
+    gap: 50px;
+}
+
+.screen{
+    width: 505px;
+    font-size: 26px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ .video{
+    position: relative;
+    padding-left: 50px; 
+}
+.video img{
+    width: 76%;
+    top: 0;
+    left: 0;
+}
+.video video{
+    position: absolute;
+    top: 76px;
+    left: 120px;
+} 
+.three{
+    height: 500px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+}
+.background{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg");
+}
+.border{
+    border: 2px solid white;
+    border-style: double;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-top: 300px;
+    padding: 10px;
+    height: 120px;
+    width: 350px;
+    display: flex;
+}
+.anime{
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.gif{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.fav{
+    margin-left: 200px;
+    margin-top: 150px;
+    width: 580px;
+}
+.fav h1{
+    font-size: 50px;
+}
+.fav p{
+    font-size: 30px;
+}
+.four{
+    height: 200px;
+    background-color: black;
+    padding-left: 250px;
+    padding-top: 40px;
+    padding-bottom: 50px;  
+    margin-top: 10px;
+}
+.unlimited{
+    width: 500px;
+}
+.unlimited h1{
+    font-size: 50px;
+}
+.unlimited p{
+    font-size: 30px;
+}
+.five{
+    height: 500px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.kids{
+   padding-top: 100px;
+   width: 600px;
+}
+.kids h1{
+    font-size: 50px;
+}
+.kids p{
+    font-size: 30px;
+}
+.cartoon{
+    padding-top: 50px;
+    padding-right: 0px;
+}
+.six{
+    height: 470px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+}
+.android{
+    width: 500px;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.android h1{
+    font-size: 50px;
+}
+.android p{
+    font-size: 27px;
+}
+.imag{
+    padding-top: 50px;
+}
+.seven{
+    height: 800px;
+    background-color: black;
+    text-align: center;
+}
+.seven h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.details{
+    width: 800px;
+    margin: auto;
+}
+details summary {
+    list-style: none;
+  }
+
+summary{
+    font-size: 30px;
+    background-color: #303030;
+    padding-left: 30px;
+    width: 800px;
+    height: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+    cursor: pointer;
+}
+.summary1{
+    display: flex;
+    justify-content: space-between;
+    gap: 550;
+}
+.summary2{
+    display: flex;
+    justify-content: space-between;
+    gap: 550;
+}
+.summary3{
+    display: flex;
+    justify-content: space-between;
+    gap: 550;
+}
+.summary4{
+    display: flex;
+    justify-content: space-between;
+    gap: 550;
+}
+.summary5{
+    display: flex;
+    justify-content: space-between;
+    gap: 550;
+}
+.summary6{
+    display: flex;
+    justify-content: space-between;
+    gap: 550;
+}
+.faq__content{
+    font-size: 30px;
+    background-color: #303030;
+    height: auto;
+    width: 780px;
+    margin-top: 2px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+.email h4{
+    font-size: 20px;
+}
+.email input{
+    width: 500px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+.email button{
+    width:200px;
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+footer{
+    height: 300px;
+    background-color: black;
+    margin-top: 10px;
+    width: 100%;
+}
+.list{
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+}
+li{
+    padding-bottom: 15px;
+    list-style-type: none;
+}
+.list ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.quiz{
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.help{
+    margin-top: 50px;
+    margin-right: 50px;
+    padding-top: 25px;
+}
+.account{
+    margin-top: 50px;
+    margin-right: 50px;
+    padding-top: 25px;
+}
+.terms{
+    margin-top: 50px;
+    padding-top: 25px;
+}
