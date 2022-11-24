@@ -4,10 +4,11 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .one{
-    background-image: linear-gradient(to bottom, black,grey);
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/cb5dae36-1095-4528-a11a-58917b4a438f/KE-en-20221114-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-image: 
+    /*linear-gradient(270deg, rgb(116, 113, 113),rgb(108, 101, 101),rgb(33, 32, 32) ),*/
+    /*background-image:*/ url('https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/4934d81e-fd30-44e4-8532-34e4f51f0289/KE-en-20221121-popsignuptwoweeks-perspective_alpha_website_large.jpg');
     width: auto;
     height: 721px;
     border-bottom: 50px;
@@ -32,7 +33,6 @@
 }
 :hover button{
     cursor: pointer;
-    background-color: rgb(216, 196, 196);
 }
 .one_one{
     text-align: center;
@@ -52,16 +52,17 @@
     height: 60px;
     width: 405px; 
 }
- 
-.one_one input, .one_one button{
-     margin: 0px;
-}
 .one_one button{
 
     background-color: red;
-    height: 68px;
+    height: 77px;
     width: 200px;
     font-size: 15px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
 }
 .two{
     height: 400px;
@@ -268,20 +269,24 @@ summary{
 .email h4{
     font-size: 20px;
 }
-.email input{
-    width: 500px;
-    padding-top: 23px;
-    padding-bottom: 23px;
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: center;
+}
+ .button input{
+    width: 405px;
+    height: 68px;
 }
 .email button{
     width:200px;
     background-color: red;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 77px;
     color: white;
     font-size: 25px;
     cursor: pointer;
-}
+} 
 footer{
     height: 300px;
     background-color: black;
