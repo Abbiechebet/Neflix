@@ -1,31 +1,33 @@
 .container{
     color:white;
-    background-color: #303030;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #303030; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 .one{
     background-size: cover;
     background-repeat: no-repeat;
-    background-image:url("https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/4934d81e-fd30-44e4-8532-34e4f51f0289/KE-en-20221121-popsignuptwoweeks-perspective_alpha_website_large.jpg");
-    width: auto;
+    background-image:
+    linear-gradient(45deg,
+    hsla(0, 43%, 3%, 0.65),
+    hsla(0, 20%, 6%, 0.65),
+    hsla(0, 9%, 4%, 0.65)), 
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/0678255b-ecfd-4775-999a-0680d539f07c/73fd2c5e-7a4b-4e60-ac3d-c76b8ee6bed5/KE-en-20221128-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     height: 721px;
     border-bottom: 50px;
 }
 .netflix{
-    display: flex;
+    display: flex;  
 }
-.netflix p{
-    color: red;
-    font-size: 50px;
-    font-weight: lighter;
-    margin-top: 20px;
+.netflix img{
+    margin-top: 30px;
     margin-left: 70px;
 }
 .netflix button{
-    background-color: red;
-    margin-left: 1150px;
-    margin-top: 20px;
+    background-color:  rgb(230, 5, 5);;
+    margin-left: 1100px;
+    margin-top: 30px;
     height: 35px;
+    color: white;
     width: 85px;
     border-radius: 5px;
 }
@@ -48,19 +50,22 @@
 }
 .one_one input{
     height: 60px;
-    width: 405px; 
+    width: 450px; 
 }
-.one_one button{
-
+.button button{
+    background-color: rgb(230, 5, 5);
+    height: 76px;
+    width: 250px;
+    color: white;
+    font-size: 30px;
+    margin-top: -1px;
+}
+.button button:hover{
     background-color: red;
-    height: 77px;
-    width: 200px;
-    font-size: 15px;
 }
 .button{
     display: flex;
     flex-direction: row;
-    gap: 0;
 }
 .two{
     height: 400px;
@@ -270,21 +275,24 @@ summary{
 .button{
     display: flex;
     flex-direction: row;
-    gap: 0;
     justify-content: center;
 }
  .button input{
-    width: 405px;
+    width: 450px;
     height: 68px;
 }
 .email button{
-    width:200px;
-    background-color: red;
+    width:250px;
+    background-color: rgb(230, 5, 5);
     height: 77px;
+    margin-top: -1px;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
 } 
+.email button:hover{
+    background-color: red;
+}
 footer{
     height: 300px;
     background-color: black;
@@ -295,10 +303,15 @@ footer{
     display: flex;
     max-width: 70%;
     margin: auto;
+    font-size: small;
+}
+.list li:hover{
+    text-decoration: underline;
 }
 li{
     padding-bottom: 15px;
     list-style-type: none;
+    color: rgb(106, 104, 104);
 }
 .list ul li a{
     text-decoration: none;
